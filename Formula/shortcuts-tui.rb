@@ -5,21 +5,21 @@
 class ShortcutsTui < Formula
   desc "A TUI for managing shortcuts"
   homepage "https://github.com/williamtcastro/shortcuts-tui"
-  version "1.0.5"
+  version "1.1.0"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.0.5/shortcuts-tui_1.0.5_darwin_amd64.tar.gz"
-      sha256 "3ad016cfcf4015747460cd60a7deac9080904e25211cc98d47147d580dbcc90d"
+      url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.1.0/shortcuts-tui_1.1.0_darwin_amd64.tar.gz"
+      sha256 "92c7f038b0b71d671e566ab6c82858c88aedf0175b6c95d6f450c3fef0785b20"
 
       def install
         bin.install "shortcuts-tui"
       end
     end
     on_arm do
-      url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.0.5/shortcuts-tui_1.0.5_darwin_arm64.tar.gz"
-      sha256 "9e8fb9415c8f89cc998ba88b67f70c101ea2390dee5f74f552074f8c5c5a22d6"
+      url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.1.0/shortcuts-tui_1.1.0_darwin_arm64.tar.gz"
+      sha256 "f3f1476bf3f3bbf5be7ad363f76130eb2d0837b7e938b27b2240836b4b51ab91"
 
       def install
         bin.install "shortcuts-tui"
@@ -30,8 +30,8 @@ class ShortcutsTui < Formula
   on_linux do
     on_intel do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.0.5/shortcuts-tui_1.0.5_linux_amd64.tar.gz"
-        sha256 "53ec66e6ff09b0b5645e8179883cf0db3c4ac938eea781f1d77daa6ba56de95d"
+        url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.1.0/shortcuts-tui_1.1.0_linux_amd64.tar.gz"
+        sha256 "ecdacb6fc79ab432705d5f14401f6bd45bc2aef1554b1e043b7ad305fb4e6f65"
 
         def install
           bin.install "shortcuts-tui"
@@ -40,8 +40,8 @@ class ShortcutsTui < Formula
     end
     on_arm do
       if Hardware::CPU.is_64_bit?
-        url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.0.5/shortcuts-tui_1.0.5_linux_arm64.tar.gz"
-        sha256 "eee24bb226735eafbe140b78e69a0f60cfd424b96b6e082037a7a558f7c9e171"
+        url "https://github.com/williamtcastro/shortcuts-tui/releases/download/v1.1.0/shortcuts-tui_1.1.0_linux_arm64.tar.gz"
+        sha256 "614d95a9a95ba4334d1364ca94297927278c7e6f8fc962612512899ef4289a77"
 
         def install
           bin.install "shortcuts-tui"
